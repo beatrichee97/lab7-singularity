@@ -1,0 +1,126 @@
+
+Hostname en ibsen:
+ibsen
+Hostname en el contenedor:
+ibsen
+
+
+SO en ibsen:
+NAME="CentOS Linux"
+VERSION="8 (Core)"
+ID="centos"
+ID_LIKE="rhel fedora"
+VERSION_ID="8"
+PLATFORM_ID="platform:el8"
+PRETTY_NAME="CentOS Linux 8 (Core)"
+ANSI_COLOR="0;31"
+CPE_NAME="cpe:/o:centos:centos:8"
+HOME_URL="https://www.centos.org/"
+BUG_REPORT_URL="https://bugs.centos.org/"
+
+CENTOS_MANTISBT_PROJECT="CentOS-8"
+CENTOS_MANTISBT_PROJECT_VERSION="8"
+REDHAT_SUPPORT_PRODUCT="centos"
+REDHAT_SUPPORT_PRODUCT_VERSION="8"
+
+SO en el contenedor:
+PRETTY_NAME="Debian GNU/Linux 11 (bullseye)"
+NAME="Debian GNU/Linux"
+VERSION_ID="11"
+VERSION="11 (bullseye)"
+VERSION_CODENAME=bullseye
+ID=debian
+HOME_URL="https://www.debian.org/"
+SUPPORT_URL="https://www.debian.org/support"
+BUG_REPORT_URL="https://bugs.debian.org/"
+
+
+pwd en ibsen:
+/home/alumno24/lab7-singularity
+pwd en el contenedor:
+/home/alumno24/lab7-singularity
+
+
+ls -l /home en ibsen:
+total 132
+drwx------.  2 alejandro alejandro  130 dic 30 11:24 alejandro
+drwx------. 18 alumno01  alumno01  4096 dic 30 11:04 alumno01
+drwx------. 12 alumno02  alumno02  4096 dic 28 20:32 alumno02
+drwx------.  2 alumno03  alumno03   133 nov 30 11:45 alumno03
+drwx------.  3 alumno04  alumno04   145 nov 30 12:44 alumno04
+drwx------.  2 alumno05  alumno05   133 nov 30 11:45 alumno05
+drwx------. 12 alumno06  alumno06  4096 dic 18 20:24 alumno06
+drwx------.  2 alumno07  alumno07   133 nov 30 11:59 alumno07
+drwx------. 17 alumno08  alumno08  4096 dic 30 11:56 alumno08
+drwx------.  2 alumno09  alumno09   133 nov 30 12:03 alumno09
+drwx------.  2 alumno10  alumno10   133 nov 30 12:00 alumno10
+drwx------.  2 alumno11  alumno11   133 nov 30 12:00 alumno11
+drwx------.  2 alumno12  alumno12   133 nov 30 12:00 alumno12
+drwx------. 11 alumno13  alumno13  4096 feb  9  2022 alumno13
+drwx------. 17 alumno14  alumno14  4096 dic 30 11:44 alumno14
+drwx------. 17 alumno15  alumno15  4096 dic 30 11:22 alumno15
+drwx------.  6 alumno16  alumno16   259 dic 30 11:03 alumno16
+drwx------.  3 alumno17  alumno17   145 nov 30 12:45 alumno17
+drwx------.  3 alumno18  alumno18   145 nov 30 12:45 alumno18
+drwx------.  2 alumno19  alumno19   133 nov 30 12:05 alumno19
+drwx------. 15 alumno20  alumno20  4096 dic 29 20:17 alumno20
+drwx------. 12 alumno21  alumno21  4096 dic 30 01:10 alumno21
+drwx------. 20 alumno22  alumno22  4096 dic 30 12:07 alumno22
+drwx------. 19 alumno23  alumno23  4096 dic 29 00:03 alumno23
+drwx------. 14 alumno24  alumno24  4096 dic 30 11:39 alumno24
+drwx------. 22 alumno25  alumno25  4096 dic 29 21:26 alumno25
+drwx--x--x.  3 alumno26  alumno26   207 dic 22 18:21 alumno26
+drwx------.  7 alumno27  alumno27  4096 dic 30 10:39 alumno27
+drwx------. 13 alumno28  alumno28  4096 dic 30 11:47 alumno28
+drwx------.  2 alumno29  alumno29   133 nov 30 12:08 alumno29
+drwx------.  2 alumno30  alumno30   133 nov 30 12:08 alumno30
+drwx------.  2 alumno31  alumno31   133 nov 30 12:08 alumno31
+drwx------.  2 alumno32  alumno32   133 nov 29 19:25 alumno32
+drwx------. 10 alumno33  alumno33  4096 dic 29 23:28 alumno33
+drwx------. 23 alumno34  alumno34  4096 dic 29 18:18 alumno34
+drwx------. 16 alumno35  alumno35  4096 dic 30 11:17 alumno35
+drwx------.  9 alumno36  alumno36  4096 dic 28 18:34 alumno36
+drwx------.  6 aorenes   aorenes    238 jul 16 23:43 aorenes
+drwx------.  3 biagio    biagio     147 sep 21  2020 biagio
+drwx------.  3 borja     borja      173 dic 26 17:45 borja
+drwx------.  7 druiz     druiz      273 feb 10  2022 druiz
+drwx------. 40 fguil     fguil     8192 dic 23 09:57 fguil
+drwxr-xr-x. 16 jesus     jesus     4096 nov  7 17:08 jesus
+drwx------.  2 jesusg    jesusg     153 oct 24 11:24 jesusg
+drwx------. 19 jhidalgo  jhidalgo  4096 jun 25  2021 jhidalgo
+drwx------. 28 jmgarcia  jmgarcia  4096 dic 30 10:12 jmgarcia
+drwx------. 12 marcos    marcos    4096 nov 25 16:54 marcos
+drwx------.  2 medicos   medicos    127 ene 10  2022 medicos
+lrwxrwxrwx.  1 root      root        18 jul 30  2021 modules -> /nas/hdd-0/modules
+drwx------. 73 pablo     pablo     8192 dic 29 17:03 pablo
+drwxr-xr-x.  9 pilar     pilar     4096 dic 20 12:58 pilar
+drwx------.  6 raul      raul       252 ene 10  2022 raul
+drwx------.  6 saul      saul      4096 dic  1 19:11 saul
+drwx------.  5 vicente   vicente    226 ago 21 09:14 vicente
+ls -l /home en el contenedor:
+total 420
+drwx------. 14 alumno24 alumno24   4096 Dec 30 11:39 alumno24
+-rwxr-xr-x.  1 root     root       4117 Dec 28 12:24 kmer-solution14.ipynb
+-rwxr-xr-x.  1 root     root     419890 Dec 28 12:24 pi-solution.ipynb
+
+
+Versión python en ibsen:
+Python 3.8.5
+Versión python en el contenedor:
+Python 3.7.16
+
+
+Ejecución kmer-solution14.ipynb del subdirectorio source:
+[22;0t]0;IPython: alumno24/lab7-singularityStart
+Number of generated k-mers: 268435456
+
+742 ms ± 48.6 µs per loop (mean ± std. dev. of 2 runs, 1 loop each)
+
+Finish!
+Ejecución kmer-solution14.ipynb que está en el contenedor my-python.sif:
+[22;0t]0;IPython: alumno24/lab7-singularityStart
+Number of generated k-mers: 268435456
+
+751 ms ± 723 µs per loop (mean ± std. dev. of 2 runs, 1 loop each)
+
+Finish!
